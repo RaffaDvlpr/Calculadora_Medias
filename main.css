@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(216, 226, 230);
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+form button {
+    background-color: rgb(0, 143, 21);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-bottom: 3px solid rgb(0, 115, 17);
+    border-right: 3px solid rgb(0, 115, 17);
+}
+
+form button:hover {
+    background-color: rgb(0, 193, 29);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-bottom: 3px solid  rgb(0, 143, 21);
+    border-right: 3px solid  rgb(0, 143, 21);
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.503);
+}
+
+table td img {
+    height: 26px;
+}
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.aprovado {
+    background-color:  rgb(0, 193, 29);
+}
+
+.reprovado {
+    background-color:  rgb(193, 26, 0);
+}
